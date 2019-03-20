@@ -449,3 +449,9 @@ main form label {
 main form input:focus, textarea:focus {
 	background-color: #DCDDDE;
 }
+
+input,
+textarea,
+select {
+    outline: 0;
+}

@@ -425,7 +425,7 @@ main form {
 	flex-direction: column;
 	align-content: center;
 	flex-wrap: wrap;
-	width: 30%;
+	width: 384px;
 	height: 450px;
 	-webkit-box-shadow: 18px 18px 59px -24px rgba(0,0,0,0.75);
 	-moz-box-shadow: 18px 18px 59px -24px rgba(0,0,0,0.75);
@@ -436,6 +436,10 @@ main form input, select {
 	margin-bottom: 20px;
 	height: 40px;
 	font-size: 15px;
+}
+
+main form input, select, textarea {
+	width: 90%;
 }
 
 main form label {

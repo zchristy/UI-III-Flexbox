@@ -222,6 +222,8 @@ main .card-container .card button {
 	margin-top: 20px;
 	font-size: 10px;
 	padding: 10px 25px;
+	border: 1px solid grey;
+	border-radius: 5px;
 }
 
 main .card-container .card button:hover {
@@ -238,7 +240,7 @@ main .facts-container {
 }
 
 main .facts-container section {
-	width: 48%;
+	width: 45%;
 }
 
 main .facts-container h2 {
@@ -250,10 +252,12 @@ main .facts-container ul {
 }
 
 main .facts-container ul li {
+	margin-top: 20px;
 	margin-left: 25px;
 	list-style-type: disc;
 }
 
 main .facts-container img {
-	width: 48%;
+	width: 45%;
+	height: 400px;
 }
